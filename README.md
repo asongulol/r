@@ -12,28 +12,47 @@ Based on the analysis, two of the five factors, vehicle length and ground cleara
 
 __Table 1: Multiple Regression Modeling Results__
 
-Coefficients:
-                   Estimate Std. Error t value Pr(>|t|)
-Intercept)      -1.040e+02  1.585e+01  -6.559 5.08e-08
-vehicle_length    6.267e+00  6.553e-01   9.563 2.60e-12
-vehicle_weight    1.245e-03  6.890e-04   1.807   0.0776
-spoiler_angle     6.877e-02  6.653e-02   1.034   0.3069
-ground_clearance  3.546e+00  5.412e-01   6.551 5.21e-08
-AWD              -3.411e+00  2.535e+00  -1.346   0.1852
-                    
-Intercept)      ***
-vehicle_length   ***
-vehicle_weight   .  
-spoiler_angle       
-ground_clearance ***
-AWD                 
----
-Signif. codes:  
-0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Coefficients:  
 
-Residual standard error: 8.774 on 44 degrees of freedom
-Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825 
-F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11
+                   Estimate Std. Error t value Pr(>|t|)  
+                   
+Intercept)      -1.040e+02  1.585e+01  -6.559 5.08e-08  
+
+vehicle_length    6.267e+00  6.553e-01   9.563 2.60e-12  
+
+vehicle_weight    1.245e-03  6.890e-04   1.807   0.0776  
+
+spoiler_angle     6.877e-02  6.653e-02   1.034   0.3069  
+
+ground_clearance  3.546e+00  5.412e-01   6.551 5.21e-08  
+
+AWD              -3.411e+00  2.535e+00  -1.346   0.1852  
+
+                    
+Intercept)      ***  
+
+vehicle_length   ***  
+
+vehicle_weight   .    
+
+spoiler_angle         
+
+ground_clearance ***  
+
+AWD  
+
+---
+Signif. codes:    
+
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1  
+
+
+Residual standard error: 8.774 on 44 degrees of freedom  
+
+Multiple R-squared:  0.7149,	Adjusted R-squared:  0.6825   
+
+F-statistic: 22.07 on 5 and 44 DF,  p-value: 5.35e-11  
+
 
 ### Is the slope of the linear model considered to be zero?
 
@@ -50,9 +69,12 @@ not?
 
 The mean and the median PSI are 1500 psi(pounds per square inch).  Given the summary statistics in Table 2, above, PSI variance is at 76.23 which is below the maximum variance of 100 psi. 
 
-Table 2: Suspension Coil PPI Summary Statistics
-  Mean_PSI   SD_PSI Median_PSI Variance_PSI
-  1499.531 8.731242   1499.747     76.23459
+Table 2: Suspension Coil PPI Summary Statistics  
+
+  Mean_PSI   SD_PSI Median_PSI Variance_PSI  
+  
+  1499.531 8.731242   1499.747     76.23459  
+  
 
 ### Is the suspension coil's PSI results significantly different from the mean population PSI of 1500?
 
